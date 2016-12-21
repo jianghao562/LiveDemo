@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90450A621DE1593500283E21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90450A611DE1593500283E21 /* main.m */; };
+		90450A651DE1593500283E21 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90450A641DE1593500283E21 /* AppDelegate.m */; };
+		90450A681DE1593500283E21 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90450A671DE1593500283E21 /* ViewController.m */; };
+		90450A6B1DE1593500283E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90450A691DE1593500283E21 /* Main.storyboard */; };
+		90450A6D1DE1593500283E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90450A6C1DE1593500283E21 /* Assets.xcassets */; };
+		90450A701DE1593500283E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90450A6E1DE1593500283E21 /* LaunchScreen.storyboard */; };
+		90AC11CC1E0A641D007B0D20 /* LiveAggregation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11C61E0A641D007B0D20 /* LiveAggregation.m */; };
+		90AC11CD1E0A641D007B0D20 /* LiveAggregationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11C81E0A641D007B0D20 /* LiveAggregationCell.m */; };
+		90AC11CE1E0A641D007B0D20 /* LiveAggregationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90AC11C91E0A641D007B0D20 /* LiveAggregationCell.xib */; };
+		90AC11CF1E0A641D007B0D20 /* LiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11CB1E0A641D007B0D20 /* LiveListViewController.m */; };
+		90AC11D31E0A6440007B0D20 /* LiveStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11D21E0A6440007B0D20 /* LiveStartViewController.m */; };
+		90AC11D71E0A6455007B0D20 /* JHNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11D61E0A6455007B0D20 /* JHNavViewController.m */; };
+		90AC11DB1E0A6462007B0D20 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AC11DA1E0A6462007B0D20 /* ShowViewController.m */; };
+		90BADC421DE3505E006FC940 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC411DE3505E006FC940 /* AudioToolbox.framework */; };
+		90BADC441DE35078006FC940 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC431DE35078006FC940 /* AVFoundation.framework */; };
+		90BADC461DE35085006FC940 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC451DE35085006FC940 /* CoreMedia.framework */; };
+		90BADC481DE35091006FC940 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC471DE35091006FC940 /* CoreVideo.framework */; };
+		90BADC4A1DE350C2006FC940 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC491DE350C2006FC940 /* libbz2.tbd */; };
+		90BADC4C1DE350CF006FC940 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC4B1DE350CF006FC940 /* libz.tbd */; };
+		90BADC4E1DE350E3006FC940 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC4D1DE350E3006FC940 /* MediaPlayer.framework */; };
+		90BADC501DE350EC006FC940 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC4F1DE350EC006FC940 /* MobileCoreServices.framework */; };
+		90BADC521DE350F2006FC940 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC511DE350F2006FC940 /* OpenGLES.framework */; };
+		90BADC541DE35102006FC940 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BADC531DE35102006FC940 /* VideoToolbox.framework */; };
+		F200CD0BA150F7D0E133B6D2 /* libPods-JHLiveDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE212332481F28934135864 /* libPods-JHLiveDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FE212332481F28934135864 /* libPods-JHLiveDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JHLiveDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7837515441C716A4A942E19C /* Pods-JHLiveDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHLiveDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JHLiveDemo/Pods-JHLiveDemo.release.xcconfig"; sourceTree = "<group>"; };
+		90450A5D1DE1593500283E21 /* JHLiveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHLiveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90450A611DE1593500283E21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90450A631DE1593500283E21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90450A641DE1593500283E21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90450A661DE1593500283E21 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		90450A671DE1593500283E21 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		90450A6A1DE1593500283E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90450A6C1DE1593500283E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90450A6F1DE1593500283E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90450A711DE1593500283E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90AC11C51E0A641D007B0D20 /* LiveAggregation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAggregation.h; sourceTree = "<group>"; };
+		90AC11C61E0A641D007B0D20 /* LiveAggregation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveAggregation.m; sourceTree = "<group>"; };
+		90AC11C71E0A641D007B0D20 /* LiveAggregationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveAggregationCell.h; sourceTree = "<group>"; };
+		90AC11C81E0A641D007B0D20 /* LiveAggregationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveAggregationCell.m; sourceTree = "<group>"; };
+		90AC11C91E0A641D007B0D20 /* LiveAggregationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveAggregationCell.xib; sourceTree = "<group>"; };
+		90AC11CA1E0A641D007B0D20 /* LiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveListViewController.h; sourceTree = "<group>"; };
+		90AC11CB1E0A641D007B0D20 /* LiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveListViewController.m; sourceTree = "<group>"; };
+		90AC11D11E0A6440007B0D20 /* LiveStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveStartViewController.h; sourceTree = "<group>"; };
+		90AC11D21E0A6440007B0D20 /* LiveStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveStartViewController.m; sourceTree = "<group>"; };
+		90AC11D51E0A6455007B0D20 /* JHNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHNavViewController.h; sourceTree = "<group>"; };
+		90AC11D61E0A6455007B0D20 /* JHNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHNavViewController.m; sourceTree = "<group>"; };
+		90AC11D91E0A6462007B0D20 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		90AC11DA1E0A6462007B0D20 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		90BADC411DE3505E006FC940 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		90BADC431DE35078006FC940 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		90BADC451DE35085006FC940 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		90BADC471DE35091006FC940 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		90BADC491DE350C2006FC940 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		90BADC4B1DE350CF006FC940 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		90BADC4D1DE350E3006FC940 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		90BADC4F1DE350EC006FC940 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		90BADC511DE350F2006FC940 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		90BADC531DE35102006FC940 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		943E7A90733614A780B806EE /* Pods-JHLiveDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHLiveDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JHLiveDemo/Pods-JHLiveDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90450A5A1DE1593400283E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90BADC541DE35102006FC940 /* VideoToolbox.framework in Frameworks */,
+				90BADC521DE350F2006FC940 /* OpenGLES.framework in Frameworks */,
+				90BADC501DE350EC006FC940 /* MobileCoreServices.framework in Frameworks */,
+				90BADC4E1DE350E3006FC940 /* MediaPlayer.framework in Frameworks */,
+				90BADC4C1DE350CF006FC940 /* libz.tbd in Frameworks */,
+				90BADC4A1DE350C2006FC940 /* libbz2.tbd in Frameworks */,
+				90BADC481DE35091006FC940 /* CoreVideo.framework in Frameworks */,
+				90BADC461DE35085006FC940 /* CoreMedia.framework in Frameworks */,
+				90BADC441DE35078006FC940 /* AVFoundation.framework in Frameworks */,
+				90BADC421DE3505E006FC940 /* AudioToolbox.framework in Frameworks */,
+				F200CD0BA150F7D0E133B6D2 /* libPods-JHLiveDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C68554368B70C3A2C9261D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				943E7A90733614A780B806EE /* Pods-JHLiveDemo.debug.xcconfig */,
+				7837515441C716A4A942E19C /* Pods-JHLiveDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90450A541DE1593400283E21 = {
+			isa = PBXGroup;
+			children = (
+				90450A5F1DE1593500283E21 /* JHLiveDemo */,
+				90450A5E1DE1593500283E21 /* Products */,
+				7C68554368B70C3A2C9261D2 /* Pods */,
+				ABD12636BC7878D97AE2FFC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		90450A5E1DE1593500283E21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90450A5D1DE1593500283E21 /* JHLiveDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90450A5F1DE1593500283E21 /* JHLiveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				90AC11D81E0A6462007B0D20 /* showLive */,
+				90AC11D41E0A6455007B0D20 /* NavCustom */,
+				90AC11D01E0A6440007B0D20 /* LiveStart */,
+				90AC11C41E0A641D007B0D20 /* LiveList */,
+				90450A631DE1593500283E21 /* AppDelegate.h */,
+				90450A641DE1593500283E21 /* AppDelegate.m */,
+				90450A661DE1593500283E21 /* ViewController.h */,
+				90450A671DE1593500283E21 /* ViewController.m */,
+				90450A691DE1593500283E21 /* Main.storyboard */,
+				90450A6C1DE1593500283E21 /* Assets.xcassets */,
+				90450A6E1DE1593500283E21 /* LaunchScreen.storyboard */,
+				90450A711DE1593500283E21 /* Info.plist */,
+				90450A601DE1593500283E21 /* Supporting Files */,
+			);
+			path = JHLiveDemo;
+			sourceTree = "<group>";
+		};
+		90450A601DE1593500283E21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90450A611DE1593500283E21 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90AC11C41E0A641D007B0D20 /* LiveList */ = {
+			isa = PBXGroup;
+			children = (
+				90AC11C51E0A641D007B0D20 /* LiveAggregation.h */,
+				90AC11C61E0A641D007B0D20 /* LiveAggregation.m */,
+				90AC11C71E0A641D007B0D20 /* LiveAggregationCell.h */,
+				90AC11C81E0A641D007B0D20 /* LiveAggregationCell.m */,
+				90AC11C91E0A641D007B0D20 /* LiveAggregationCell.xib */,
+				90AC11CA1E0A641D007B0D20 /* LiveListViewController.h */,
+				90AC11CB1E0A641D007B0D20 /* LiveListViewController.m */,
+			);
+			name = LiveList;
+			path = ../../../../jianghao/Desktop/JHLiveDemo/JHLiveDemo/LiveList;
+			sourceTree = "<group>";
+		};
+		90AC11D01E0A6440007B0D20 /* LiveStart */ = {
+			isa = PBXGroup;
+			children = (
+				90AC11D11E0A6440007B0D20 /* LiveStartViewController.h */,
+				90AC11D21E0A6440007B0D20 /* LiveStartViewController.m */,
+			);
+			name = LiveStart;
+			path = ../../../../jianghao/Desktop/JHLiveDemo/JHLiveDemo/LiveStart;
+			sourceTree = "<group>";
+		};
+		90AC11D41E0A6455007B0D20 /* NavCustom */ = {
+			isa = PBXGroup;
+			children = (
+				90AC11D51E0A6455007B0D20 /* JHNavViewController.h */,
+				90AC11D61E0A6455007B0D20 /* JHNavViewController.m */,
+			);
+			name = NavCustom;
+			path = ../../../../jianghao/Desktop/JHLiveDemo/JHLiveDemo/NavCustom;
+			sourceTree = "<group>";
+		};
+		90AC11D81E0A6462007B0D20 /* showLive */ = {
+			isa = PBXGroup;
+			children = (
+				90AC11D91E0A6462007B0D20 /* ShowViewController.h */,
+				90AC11DA1E0A6462007B0D20 /* ShowViewController.m */,
+			);
+			name = showLive;
+			path = ../../../../jianghao/Desktop/JHLiveDemo/JHLiveDemo/NavCustom/showLive;
+			sourceTree = "<group>";
+		};
+		ABD12636BC7878D97AE2FFC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90BADC531DE35102006FC940 /* VideoToolbox.framework */,
+				90BADC511DE350F2006FC940 /* OpenGLES.framework */,
+				90BADC4F1DE350EC006FC940 /* MobileCoreServices.framework */,
+				90BADC4D1DE350E3006FC940 /* MediaPlayer.framework */,
+				90BADC4B1DE350CF006FC940 /* libz.tbd */,
+				90BADC491DE350C2006FC940 /* libbz2.tbd */,
+				90BADC471DE35091006FC940 /* CoreVideo.framework */,
+				90BADC451DE35085006FC940 /* CoreMedia.framework */,
+				90BADC431DE35078006FC940 /* AVFoundation.framework */,
+				90BADC411DE3505E006FC940 /* AudioToolbox.framework */,
+				3FE212332481F28934135864 /* libPods-JHLiveDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90450A5C1DE1593400283E21 /* JHLiveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90450A741DE1593500283E21 /* Build configuration list for PBXNativeTarget "JHLiveDemo" */;
+			buildPhases = (
+				4A3D9782496514D8E1F6EF5C /* [CP] Check Pods Manifest.lock */,
+				90450A591DE1593400283E21 /* Sources */,
+				90450A5A1DE1593400283E21 /* Frameworks */,
+				90450A5B1DE1593400283E21 /* Resources */,
+				47FEFC10C4EE842929AE5684 /* [CP] Embed Pods Frameworks */,
+				E18FAAAB1C12D41DD796B9C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHLiveDemo;
+			productName = JHLiveDemo;
+			productReference = 90450A5D1DE1593500283E21 /* JHLiveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90450A551DE1593400283E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JiangHao;
+				TargetAttributes = {
+					90450A5C1DE1593400283E21 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 43CL3QX558;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90450A581DE1593400283E21 /* Build configuration list for PBXProject "JHLiveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90450A541DE1593400283E21;
+			productRefGroup = 90450A5E1DE1593500283E21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90450A5C1DE1593400283E21 /* JHLiveDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90450A5B1DE1593400283E21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AC11CE1E0A641D007B0D20 /* LiveAggregationCell.xib in Resources */,
+				90450A701DE1593500283E21 /* LaunchScreen.storyboard in Resources */,
+				90450A6D1DE1593500283E21 /* Assets.xcassets in Resources */,
+				90450A6B1DE1593500283E21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FEFC10C4EE842929AE5684 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHLiveDemo/Pods-JHLiveDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A3D9782496514D8E1F6EF5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E18FAAAB1C12D41DD796B9C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JHLiveDemo/Pods-JHLiveDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90450A591DE1593400283E21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AC11CD1E0A641D007B0D20 /* LiveAggregationCell.m in Sources */,
+				90AC11DB1E0A6462007B0D20 /* ShowViewController.m in Sources */,
+				90AC11CC1E0A641D007B0D20 /* LiveAggregation.m in Sources */,
+				90AC11CF1E0A641D007B0D20 /* LiveListViewController.m in Sources */,
+				90450A681DE1593500283E21 /* ViewController.m in Sources */,
+				90AC11D71E0A6455007B0D20 /* JHNavViewController.m in Sources */,
+				90AC11D31E0A6440007B0D20 /* LiveStartViewController.m in Sources */,
+				90450A651DE1593500283E21 /* AppDelegate.m in Sources */,
+				90450A621DE1593500283E21 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90450A691DE1593500283E21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90450A6A1DE1593500283E21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90450A6E1DE1593500283E21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90450A6F1DE1593500283E21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90450A721DE1593500283E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90450A731DE1593500283E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90450A751DE1593500283E21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943E7A90733614A780B806EE /* Pods-JHLiveDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43CL3QX558;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/LFLiveKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = JHLiveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jianghao.com.cn.JHLiveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90450A761DE1593500283E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7837515441C716A4A942E19C /* Pods-JHLiveDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 43CL3QX558;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/LFLiveKit\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = JHLiveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = jianghao.com.cn.JHLiveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90450A581DE1593400283E21 /* Build configuration list for PBXProject "JHLiveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90450A721DE1593500283E21 /* Debug */,
+				90450A731DE1593500283E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90450A741DE1593500283E21 /* Build configuration list for PBXNativeTarget "JHLiveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90450A751DE1593500283E21 /* Debug */,
+				90450A761DE1593500283E21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90450A551DE1593400283E21 /* Project object */;
+}

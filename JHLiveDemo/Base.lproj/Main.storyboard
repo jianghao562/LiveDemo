@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dun-Mx-vCL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nav View Controller-->
+        <scene sceneID="zjy-uV-mz2">
+            <objects>
+                <navigationController id="dun-Mx-vCL" customClass="JHNavViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0SB-WL-rOl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MWW-uR-vlQ" kind="relationship" relationship="rootViewController" id="lYb-ag-D9A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FjC-Eb-5fc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-522" y="-385"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oyO-EA-cZ0">
+            <objects>
+                <viewController id="MWW-uR-vlQ" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yyv-Qi-VWr"/>
+                        <viewControllerLayoutGuide type="bottom" id="3hZ-1B-XtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B1T-ct-lu1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fb8-UN-qPk">
+                                <frame key="frameInset" minX="131" minY="279" width="90" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="我要直播">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dLY-2V-4qX" kind="presentation" id="RfN-BV-gAw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IM1-JW-czN">
+                                <frame key="frameInset" minX="134" minY="187" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="热门直播">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iW6-PR-OlR" kind="show" id="y1H-SA-xU8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NG7-Gm-2Vg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8qE-3S-lF6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.59999999999999" y="-422.33883058470769"/>
+        </scene>
+        <!--Live List View Controller-->
+        <scene sceneID="FNO-9h-mV1">
+            <objects>
+                <tableViewController id="iW6-PR-OlR" customClass="LiveListViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="hxv-zT-fQA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aTe-39-VFh">
+                                <rect key="frame" x="0.0" y="120" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aTe-39-VFh" id="jo8-CJ-lw2">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="iW6-PR-OlR" id="Typ-Ii-1Mw"/>
+                            <outlet property="delegate" destination="iW6-PR-OlR" id="Sa5-sL-EQ8"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mHR-ek-iK0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="-517"/>
+        </scene>
+        <!--Live Start View Controller-->
+        <scene sceneID="eA7-zZ-R5h">
+            <objects>
+                <viewController id="dLY-2V-4qX" customClass="LiveStartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uc7-DO-4db"/>
+                        <viewControllerLayoutGuide type="bottom" id="cy3-RX-KOa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WfW-iL-6GE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBz-Ud-qSn">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="4f5-x8-idz"/>
+                                    <constraint firstAttribute="height" constant="40" id="BKP-5p-hxw"/>
+                                </constraints>
+                                <state key="normal" image="camra_beauty"/>
+                                <state key="selected" image="camra_beauty_close"/>
+                                <connections>
+                                    <action selector="beautifulFace:" destination="dLY-2V-4qX" eventType="touchDown" id="SWm-ah-t2f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owR-OG-JWH">
+                                <state key="normal" image="camera_change_40x40_"/>
+                                <connections>
+                                    <action selector="onClickchangImage:" destination="dLY-2V-4qX" eventType="touchDown" id="54i-rH-XWU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZ8-xQ-dK5">
+                                <state key="normal" image="talk_close_40x40_"/>
+                                <connections>
+                                    <action selector="colseCurrView:" destination="dLY-2V-4qX" eventType="touchDown" id="BUA-tB-SVD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v7R-L4-64d">
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UXr-VC-hwA"/>
+                                    <constraint firstAttribute="width" constant="80" id="W1T-Bn-Y3U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="开始直播">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startLive:" destination="dLY-2V-4qX" eventType="touchUpInside" id="Ko3-gD-6C4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.48733203460000002" green="1" blue="0.364024177" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="owR-OG-JWH" firstAttribute="top" secondItem="nZ8-xQ-dK5" secondAttribute="top" id="1t2-td-9I9"/>
+                            <constraint firstItem="LBz-Ud-qSn" firstAttribute="top" secondItem="owR-OG-JWH" secondAttribute="top" id="Aw5-xA-MLy"/>
+                            <constraint firstAttribute="trailing" secondItem="LBz-Ud-qSn" secondAttribute="trailing" constant="20" id="Kwu-mA-Yho"/>
+                            <constraint firstItem="v7R-L4-64d" firstAttribute="top" secondItem="owR-OG-JWH" secondAttribute="bottom" constant="50" id="acm-0A-GaK"/>
+                            <constraint firstItem="owR-OG-JWH" firstAttribute="centerX" secondItem="WfW-iL-6GE" secondAttribute="centerX" id="h75-26-AXp"/>
+                            <constraint firstItem="nZ8-xQ-dK5" firstAttribute="leading" secondItem="WfW-iL-6GE" secondAttribute="leading" constant="20" id="i1N-Bx-bq6"/>
+                            <constraint firstItem="nZ8-xQ-dK5" firstAttribute="top" secondItem="uc7-DO-4db" secondAttribute="bottom" constant="15" id="mKV-Il-RZL"/>
+                            <constraint firstItem="v7R-L4-64d" firstAttribute="centerX" secondItem="owR-OG-JWH" secondAttribute="centerX" id="rKa-bz-V8y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sji-oG-woh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.79999999999995" y="203.74812593703149"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera_change_40x40_" width="40" height="40"/>
+        <image name="camra_beauty" width="23" height="23"/>
+        <image name="camra_beauty_close" width="25" height="23"/>
+        <image name="talk_close_40x40_" width="40" height="40"/>
+    </resources>
+</document>
