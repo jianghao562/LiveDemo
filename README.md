@@ -2,7 +2,7 @@
 打开项目（真机运行）<br>
 关于IJKMediaFramework/IJKMediaFramework.h找不到问题，由于上传受限，故没有上传上去，
 请去百度云<a href="https://pan.baidu.com/s/1gfjyBtT">IJKMediaFramework</a> 下载完拖进项目运行即可
-下载或者clone项目, 打开`JHLiveDemo.xcworkspace`, 把下面的拖进需要依赖的Frameworks到工程
+下载或者clone项目, 打开`JHLiveDemo.xcworkspace`, 把下面的拖进需要依赖的Frameworks到工程<br>
  AudioToolbox.framework<br>
  AVFoundation.framework<br>
  CoreGraphics.framework<br>
