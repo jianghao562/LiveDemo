@@ -1,4 +1,5 @@
-#iOS直播项目<br>
+#iOS直播项目
+<br>
 打开项目（真机运行）<br>
 关于IJKMediaFramework/IJKMediaFramework.h找不到问题，由于上传受限，故没有上传上去，
 请去百度云<a href="https://pan.baidu.com/s/1gfjyBtT">IJKMediaFramework</a> 下载完拖进项目运行即可
